@@ -1,0 +1,74 @@
+* What is a String in Java?
+- A String is a sequence of characters.
+- Strings are immutable, meaning once created, they cannot be changed.
+- String is a reference data type.
+
+* (OOP concept) What are the main principles of Object-Oriented Programming?
+- Encapsulation:- Bundling data and methods.
+- Abstraction:- Hinding internal details and showing only functionality.
+- Inheritance:- Acquiring properties and behavior from a parent class.
+- Polymorphism:- performing actions in many ways(method over loading and overriding)
+
+
+
+Access Modifiers in Java:
+
+| Context                        | public | default | protected | private |
+|--------------------------------|--------|---------|-----------|---------|
+| Same class                     |  Yes   |   Yes   |   Yes     |  Yes    |
+| Same package subclass          |  Yes   |   Yes   |   Yes     |   No    |
+| Same package non-subclass      |  Yes   |   Yes   |   Yes     |   No    |
+| Different package subclass     |  Yes   |   No    |   Yes     |   No    |
+| Different package non-subclass |  Yes   |   No    |   No      |   No    |
+
+What is the Collection API?
+- The Collection API provides classes and interfaces for storing and manipulating groups of data as a single unit (e.g., List, Set, Map).
+
+StringBuffer and StringBuilder:
+- Both are used for mutable strings (strings that can be changed).
+- StringBuffer is thread-safe (synchronized).
+- StringBuilder is not thread-safe but faster.
+
+What are Threads in Java?
+- Threads allow concurrent execution of two or more parts of a program for maximum utilization of CPU.
+
+What is an Array in Java and its Declaration?
+- An array is a collection of similar data types.
+- which allows multiple elements to be stored in a single variable.
+- Arrays are fixed-size data structures.
+- Array is a reference data type.
+
+Examples:
+int[] num = new int[2];      // declares an array of integers with size 2
+int nums[] = new int[3];     // declares an array of integers with size 3
+
+Can we store multiple data types in an array?
+- Yes, with the help of the Object class (superclass of all classes in Java).
+
+Example:
+Object[] obj = new Object[10]; // can store any type of object
+obj[0] = "Hello";              // assigns a String
+obj[1] = 100;                  // assigns an Integer
+
+
+File Handling in Java:
+- File handling allows reading, writing, and manipulating files in Java.
+- Common classes: File, FileReader, FileWriter, BufferedReader, BufferedWriter.
+What is differnce between FileWriter and BufferedWriter?
+- FileWriter writes characters directly to a file.
+- BufferedWriter wraps a FileWriter and adds buffering, making writing more efficient by reducing the number of write operations.
+
+Java Data Structures :- 
+Data structures are ways to store and organize data so you can use it efficiently.
+
+Some of the most common are:
+ArrayList (ArrayList<String> cars = new ArrayList<String>();)
+-An ArrayList is a resizable array that can grow as needed.
+-It allows you to store elements and access them by index.
+
+HashSet (HashSet<String> cars = new HashSet<String>();)
+-A HashSet is a collection where every element is unique - no duplicates are allowed.
+
+HashMap (HashMap<String, String> capitalCities = new HashMap<String, String>();)
+- A HashMap stores key-value pairs, which are great when you want to store values and find them by a key (like a name or ID):
+
