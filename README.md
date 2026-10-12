@@ -1,18 +1,26 @@
 # Java Revision
 
-This repository contains Java programs and concepts I practiced while revising Java fundamentals.
+This repository contains Java programs, notes, and coding exercises used for revision and hands-on practice.
 
-## Topics Covered
-- Core Java concepts
-- OOP (Object-Oriented Programming)
-- Data Structures
-- Collections Framework
-- Exception Handling
-- Practice programs and problem-solving
+## Overview
 
-## Tech Stack
+The goal of this repository is to strengthen Java fundamentals through regular practice and concept revision.
+
+## Topics covered
+- Core Java basics
+- Object-Oriented Programming (OOP)
+- Data structures
+- Collections framework
+- Exception handling
+- Problem-solving exercises
+- Practice programs
+
+## Tech stack
 - Java
-- (VsCode, IntelliJ IDEA / Eclipse)
+- VS Code / IntelliJ IDEA / Eclipse
+
+## Status
+Learning and revision repository for Java fundamentals.
 
 ## Contact
-- Email: shaikhsadique720@gmail.com
+- GitHub: [sadique720](https://github.com/sadique720)
