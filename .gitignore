@@ -1,0 +1,36 @@
+# Byte-compiled / compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Build output directories
+bin/
+out/
+target/
+build/
+.gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
