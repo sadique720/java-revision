@@ -34,5 +34,3 @@ Learning and revision repository for Java fundamentals.
 
 ## Contact
 - GitHub: [sadique720](https://github.com/sadique720)
-
-[![Resume](https://img.shields.io/badge/Resume-Download-00AEEF?style=for-the-badge)](https://yourresume-link.com/resume.pdf)
